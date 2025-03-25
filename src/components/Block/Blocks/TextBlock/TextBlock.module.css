@@ -1,0 +1,28 @@
+.wrap {
+    width: 100%;
+}
+
+.text {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.text:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.text::placeholder {
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.text:hover::placeholder {
+    opacity: 1;
+}

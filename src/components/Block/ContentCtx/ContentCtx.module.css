@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.skeleton {
+    opacity: 0;
+}
+
+.container:hover .skeleton {
+    opacity: 1;
+}
