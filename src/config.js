@@ -7,7 +7,7 @@
 // }
 
 const config = {
-    baseURL: "http://185.233.187.23",
+    baseURL: "https://proxy.custom-notion.ru",
     authBaseURL: "http://localhost:8000",
     notesBaseURL: "http://localhost:8000",
     mediaBaseURL: "http://localhost:8000",
